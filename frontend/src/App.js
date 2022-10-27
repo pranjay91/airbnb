@@ -1,8 +1,8 @@
 import Header from './components/header/header';
-import Section from './components/middlesection/section';
+import Section from './components/section/section';
 
-import Cards from './components/cards/cards';
-import Buttoned from './components/button/buttoned';
+import Cards from './components/card/card';
+import Buttoned from './components/button/button';
 
 import './App.css';
 

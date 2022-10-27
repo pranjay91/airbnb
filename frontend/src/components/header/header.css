@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.063rem solid gainsboro;
+    
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin:0 5px;
+}
+.bull{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px; 
+    background-color: light grey;
+    cursor: pointer;
+    height: 32px;
+}
+
+ .bull:hover{
+    border: 1px solid grey; 
+    border-radius:300px;
+    background-color: whitesmoke;
+    height: 32px;
+    cursor: pointer;
+}
+.pair{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 0 0.9px;
+     padding: 5px;
+     border-radius: 999px;
+}
+.pair:hover{
+    border:none;
+    border: 3px solid grey; 
+   
+}
+.header_image{
+    object-fit: contain;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}

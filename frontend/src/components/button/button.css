@@ -1,0 +1,85 @@
+.beku{
+    display:flex;
+    align-items: center;
+ 
+    /* margin-bottom: 300px; */
+}
+.chind{
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    
+}
+.buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .staticbuttons {
+    display: flex;
+    margin-left: 100px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .insidebuttons{
+   
+    margin: 10px 10px 10px 0px;
+    border-radius: 16px;
+    height: 29px;
+    padding: 7px 15px;
+    min-height: 32px;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: nowrap;
+    background-color: transparent;
+    outline: none; 
+    cursor: pointer;
+  }
+   
+
+.buttonsdead{
+    width: 341px;
+    height: 32px;
+    /* display: inline-block; */
+    padding: 100px;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    border: 1px solid rgb(221, 221, 221);
+  
+    outline: none;
+    padding: 7px 15px;
+    min-height: 32px;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: nowrap;
+    background-color: #eee;
+}
+.chind {
+   
+   
+
+    overflow-x: scroll; 
+width:954px;
+    height: 45px;
+    align-items: center;
+    overflow-x: scroll;
+   
+    overflow-x: scroll;
+    /* Add the ability to scroll */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .chind::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .chind {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

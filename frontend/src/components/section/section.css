@@ -1,0 +1,82 @@
+.conditioning{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 6.25rem;
+}
+
+.hop{
+   
+background-color: whitesmoke;
+height:100%;
+width:100%;
+border-radius: 999px;
+/* visibility: hidden; */
+opacity: 0.1;
+}
+.dop{
+background-color:whitesmoke;
+height:100%;
+width:100%;
+border-radius: 999px;
+cursor:pointer
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+    
+}
+.carte{
+    display: flex;
+    overflow: hidden;
+    float: right;
+   
+    margin-right: 6.25rem;   
+    height: 320px;
+    margin-bottom:10px
+}
+.card{
+    position: relative;
+    display: flex;
+    height: 320px;
+    margin-left: 100px;   
+    margin-bottom: 10px;
+}
+.vom{
+    margin-left: 20px;
+}
+
+.sectionimage{
+    width: 550px;
+    /* margin: 20px; */
+    border-radius: 14px;
+}
+.imagetext{
+    position: absolute;
+    color:white;
+    margin: 20px;
+    }
+    .cardpara{
+margin-bottom: 0px;
+    }
+    .cardtexts{
+margin-top: 0px;
+    }
+    .cardbuttons{
+      margin-top: 110px;
+      border-radius: 11px;
+      padding: 10px;
+      border: none;
+      font-weight: 600;
+      cursor:pointer;
+     
+    }
+    @media screen and (max-width: 600px) {
+        .sectionimage{
+           height:300px;
+           width:220px;
+           overflow: hidden;
+        }
+       
+      }
